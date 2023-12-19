@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Cadastrar conteúdo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" type="text/css" href="../style/cadastroconteudo.css" />
+</head>
+<body>
+  <div class="container" >
+    <a class="links" id="paracadastro"></a>
+    <a class="links" id="paralogin"></a>
+     
+    <div class="content">      
+   
+      <div id="login">
+        
+      </div>
+ 
+      
+      <div id="cadastro">
+
+        <form method="get" action="http://localhost/direitoafelicidade/paginaWeb/cadastro-conteudo.php"> 
+          <h1>Cadastro de conteúdo</h1> 
+           
+
+          <p> 
+            <label for="nomeConteudo">Nome</label>
+            <input id="nomeConteudo" name="nomeConteudo" required="required" type="text" placeholder="nome" />
+          </p>
+
+           
+          <p> 
+            <label for="descricaoConteudo">Descrição do conteúdo</label>
+            <input id="descricaoConteudo" name="descricaoConteudo" required="required" type="text" placeholder="descricao" /> 
+          </p>
+
+           <p> 
+            <label for="descricaoIndicacao">Descrição da indicação <br>(Porque esse conteúdo está sendo indicado)</label>
+            <input id="descricaoIndicacao" name="descricaoIndicacao" required="required" type="text" placeholder="descricao" /> 
+          </p>
+          
+           <p> 
+            <label for="tematicaConteudo">Temática</label>
+            <input id="tematicaConteudo" name="tematicaConteudo" required="required" type="text" placeholder="tematica" /> 
+          </p>
+
+       
+
+          <p> 
+            <input type="submit" value="Cadastrar"/> 
+
+          </p>
+          
+         
+        </form>
+      </div>
+    </div>
+  </div>  
+</body>
+</html>

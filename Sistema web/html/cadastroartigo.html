@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Cadastrar artigo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" type="text/css" href="../style/cadastrolivro.css" />
+</head>
+<body>
+  <div class="container" >
+    <a class="links" id="paracadastro"></a>
+    <a class="links" id="paralogin"></a>
+     
+    <div class="content">      
+   
+      <div id="login">
+        
+      </div>
+ 
+      
+      <div id="cadastro">
+        <form method="get" action="http://localhost/direitoafelicidade/cadastro-artigo.php"> 
+          <h1>Cadastro de artigo</h1> 
+           
+
+          <p> 
+            <label for="linkArtigo">Link do artigo</label>
+            <input id="linkArtigo" name="linkArtigo" required="required" type="text" placeholder="link" />
+          </p>
+           
+          <p> 
+            <label for="resumoArtigo">Resumo do artigo</label>
+            <input id="resumoArtigo" name="resumoArtigo" required="required" type="text" placeholder="resumo" /> 
+          </p>
+
+           <p> 
+            <label for="anoPublicacao">Ano do artigo</label>
+            <input id="anoPublicacao" name="anoPublicacao" required="required" type="text" placeholder="ano do artigo" /> 
+          </p>
+
+          <p> 
+            <label for="autorArtigo">Autor do Artigo</label>
+            <input id="autorArtigo" name="autorArtigo" required="required" type="text" placeholder="autor" /> 
+          </p>
+
+          <p> 
+            <label for="codConteudo">Código do conteúdo</label>
+            <input id="codConteudo" name="codConteudo" required="required" type="text" placeholder="codConteudo" />
+            <h6>Por enquanto, o código do conteúdo dever consultato no banco de dados</h6> 
+          </p>
+
+          <p> 
+            <input type="submit" value="Cadastrar"/> 
+
+          </p>
+          
+         
+        </form>
+      </div>
+    </div>
+  </div>  
+</body>
+</html>

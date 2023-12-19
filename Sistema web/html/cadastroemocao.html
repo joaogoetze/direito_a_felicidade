@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Cadastrar emoção</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" type="text/css" href="../style/cadastroconteudo.css" />
+</head>
+<body>
+  <div class="container" >
+    <a class="links" id="paracadastro"></a>
+    <a class="links" id="paralogin"></a>
+     
+    <div class="content">      
+   
+      <div id="login">
+        
+      </div>
+ 
+      
+      <div id="cadastro">
+
+        <form method="get" action="http://localhost/direitoafelicidade/cadastro-emocao.php"> 
+          <h1>Cadastro de emoção</h1> 
+           
+
+          <p> 
+            <label for="tipoEmocao">Tipo da emoção</label>
+            <input id="tipoEmocao" name="tipoEmocao" required="required" type="text" placeholder="emoção" />
+          </p>
+
+           
+          <p> 
+            <label for="dataEmocao">Data da emoção</label>
+            <input id="dataEmocao" name="dataEmocao" required="required" type="date" placeholder="data" /> 
+          </p>
+
+           
+
+           <p> 
+            <label for="codConteudo">Código do conteúdo</label>
+            <input id="codConteudo" name="codConteudo" required="required" type="text" placeholder="codConteudo" /> 
+          </p>
+
+          <p> 
+            <input type="submit" value="Cadastrar"/> 
+
+          </p>
+          
+         
+        </form>
+      </div>
+    </div>
+  </div>  
+</body>
+</html>

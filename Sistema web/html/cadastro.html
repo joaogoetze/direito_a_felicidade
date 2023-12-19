@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Cadastrar usuário</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" type="text/css" href="../style/style.css" />
+</head>
+<body>
+
+
+
+  <div class="container" >
+    <a class="links" id="paracadastro"></a>
+    <a class="links" id="paralogin"></a>
+     
+    <div class="content">      
+      <!--FORMULÁRIO DE LOGIN-->
+      <div id="login">
+        <form method="get" action="http://localhost/direitoafelicidade/cadastro-usuario.php"> 
+          
+           
+          
+        </form>
+      </div>
+ 
+  
+      <div id="cadastro">
+
+
+        <form method="get" action="http://localhost/direitoafelicidade/cadastro-usuario.php"> 
+          <h1>Cadastro de usuários</h1> 
+           
+          <p> 
+            <label for="nomeUsuario">Nome</label>
+            <input id="nomeUsuario" name="nomeUsuario" required="required" type="text" placeholder="nome" />
+          </p>
+
+
+       <p>
+             <label id="generoUsuario" for="generoUsuario">Seu gênero</label>
+             <input id="generoUsuario" type="checkbox" name="generoUsuario" value="1">Feminino
+             <input id="generoUsuario" type="checkbox" name="generoUsuario" value="2">Masculino
+           </p>
+
+            <p>
+             <label id="tipoUsuario" for="tipoUsuario">Estudante ou servidor?</label>
+             <input id="tipoUsuario" type="checkbox" name="tipoUsuario" value="1">Estudante
+             <input id="tipoUsuario" type="checkbox" name="tipoUsuario" value="2">Servidor
+           </p>
+
+           
+          <p> 
+            <label for="emailUsuario">E-mail</label>
+            <input id="emailUsuario" name="emailUsuario" required="required" type="email" placeholder="e-mail" /> 
+          </p>
+           
+          <p> 
+            <label for="senhaUsuario">Senha</label>
+            <input id="senhaUsuario" name="senhaUsuario" required="required" type="password" placeholder="senha"/>
+          </p>
+
+          <p> 
+            <label for="matriculaEstudante">Matrícula do estudante</label>
+            <input id="matriculaEstudante" name="matriculaEstudante"  type="text" placeholder="matricula" />
+          </p>
+
+          <p> 
+            <label for="matriculaServidor">Matrícula do servidor</label>
+            <input id="matriculaServidor" name="matriculaServidor"  type="text" placeholder="matricula" />
+          </p>
+
+            <p> 
+            <label for="cargoServidor">Cargo do servidor</label>
+            <input id="cargoServidor" name="cargoServidor"  type="text" placeholder="cargo" />
+          </p>
+            <p> 
+            <label for="siapeServidor">Siape do servidor</label>
+            <input id="siapeServidor" name="siapeServidor"  type="text" placeholder="siape" />
+          </p>
+
+           
+          <p> 
+            <input type="submit" value="Cadastrar"/> 
+          </p>
+           
+        </form>
+      </div>
+    </div>
+  </div>  
+</body>
+</html>

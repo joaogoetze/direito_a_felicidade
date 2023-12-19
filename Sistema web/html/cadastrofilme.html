@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Cadastrar filme</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" type="text/css" href="../style/cadastroserie.css" />
+</head>
+<body>
+  <div class="container" >
+    <a class="links" id="paracadastro"></a>
+    <a class="links" id="paralogin"></a>
+     
+    <div class="content">      
+   
+      <div id="login">
+       
+      </div>
+ 
+      
+      <div id="cadastro">
+        <form method="get" action="http://localhost/direitoafelicidade/cadastro-filme.php"> 
+          <h1>Cadastro de filme</h1> 
+           
+
+
+          <p> 
+            <label for="capaFilme">Capa do filme</label>
+            <input id="capaFilme" name="capaFilme" required="required" inpute type="file" placeholder="capa do filme" />
+          </p>
+           
+          
+          <p>
+            <label for="sinopseFilme">Sinopse do filme</label>
+            <input id="sinopseFilme" name="sinopseFilme" required="required" type="text" placeholder="sinopse do filme">
+          </p>
+
+           <p> 
+            <label for="duracaoFilme">Duração do filme</label>
+            <input id="duracaoFilme" name="duracaoFilme" required="required" type="text" placeholder="duracao" />
+          </p>
+
+           <p> 
+            <label for="anoLancamentoFilme">Ano de lançamento</label>
+            <input id="anoLancamentoFilme" name="anoLancamentoFilme" required="required" type="text" placeholder="ano" />
+          </p>
+
+          <p> 
+            <label for="plataformaFilme">Plataforma</label>
+            <input id="plataformaFilme" name="plataformaFilme" required="required" type="text" placeholder="plataforma" />
+          </p>
+           
+          <p> 
+            <label for="codConteudo">Código do conteúdo</label>
+            <input id="codConteudo" name="codConteudo" required="required" type="text" placeholder="codConteudo" />
+             <h6>Por enquanto, o código do conteúdo dever consultato no banco de dados</h6> 
+          </p>
+           
+          <p> 
+            <input type="submit" value="Cadastrar"/> 
+          </p>
+           
+        </form>
+      </div>
+    </div>
+  </div>  
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Cadastrar canal do YouTube</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" type="text/css" href="../style/cadastroconteudo.css" />
+</head>
+<body>
+  <div class="container" >
+    <a class="links" id="paracadastro"></a>
+    <a class="links" id="paralogin"></a>
+     
+    <div class="content">      
+   
+      <div id="login">
+      </div>
+ 
+      <div id="cadastro">
+
+        <form method="POST" action="http://localhost/direitoafelicidade/paginaWeb/cadastro-canais.php" enctype="multipart/form-data"> 
+          <h1>Cadastro de canais</h1> 
+          <p> 
+            <label for="linkCanal">Link do canal</label>
+            <input id="linkCanal" name="linkCanal" required="required" type="text" placeholder="link" />
+          </p>
+          <p> 
+            <label for="capaCanal">Capa do canal</label>
+            <input id="capaCanal" name="capaCanal" required="required" type="file" placeholder="capa" /> 
+          </p>
+          <p> 
+            <label for="codConteudo">Código do conteúdo</label>
+            <input id="codConteudo" name="codConteudo" required="required" type="text" placeholder="codConteudo" /> 
+          </p>
+          <p> 
+            <input type="submit" value="Cadastrar"/> 
+
+          </p>
+                   
+        </form>
+      </div>
+    </div>
+  </div>  
+</body>
+</html>

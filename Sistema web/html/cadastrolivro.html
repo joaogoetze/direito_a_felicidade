@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Cadastrar livro</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" type="text/css" href="../style/cadastrolivro.css" />
+</head>
+<body>
+  <div class="container" >
+    <a class="links" id="paracadastro"></a>
+    <a class="links" id="paralogin"></a>
+     
+    <div class="content">      
+   
+      <div id="login">
+        
+      </div>
+ 
+      
+      <div id="cadastro">
+        <form method="get" action="http://localhost/direitoafelicidade/cadastro-livro.php"> 
+          <h1>Cadastro de livro</h1> 
+           
+
+          <p> 
+            <label for="editoraLivro">Editora do livro</label>
+            <input id="editoraLivro" name="editoraLivro" required="required" type="text" placeholder="editora do livro" />
+          </p>
+
+           <p> 
+            <label for="capaLivro">Capa do livro</label>
+            <input id="capaLivro" name="capaLivro" required="required" inpute type="file" placeholder="capa do livro" />
+          </p>
+           
+          <p> 
+            <label for="autorLivro">Nome do autor</label>
+            <input id="autorLivro" name="autorLivro" required="required" type="text" placeholder="nome do autor" /> 
+          </p>
+
+           <p> 
+            <label for="anoLivro">Ano do livro</label>
+            <input id="anoLivro" name="anoLivro" required="required" type="text" placeholder="ano do livro" /> 
+          </p>
+          
+           <p> 
+            <label for="paginasLivro">Quantidade de páginas do livro</label>
+            <input id="paginasLivro" name="paginasLivro" required="required" type="text" placeholder="páginas do livro" /> 
+          </p>
+
+          <p> 
+            <label for="generoLivro">Gênero do livro</label>
+            <input id="generoLivro" name="generoLivro" required="required" type="text" placeholder="genero do livro" /> 
+          </p>
+
+          <p> 
+            <label for="codConteudo">Código do conteúdo (VALOR INTEIRO)</label>
+            <input id="codConteudo" name="codConteudo" required="required" type="text" placeholder="codConteudo" />
+             <h6 align="center">Por enquanto, o código do conteúdo dever consultato no banco de dados</h6> 
+          </p>
+
+          <p> 
+            <input type="submit" value="Cadastrar"/> 
+
+          </p>
+          
+         
+        </form>
+      </div>
+    </div>
+  </div>  
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Cadastrar aplicativo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" type="text/css" href="../style/cadastroconteudo.css" />
+</head>
+<body>
+  <div class="container" >
+    <a class="links" id="paracadastro"></a>
+    <a class="links" id="paralogin"></a>
+     
+    <div class="content">      
+   
+      <div id="login">
+        
+      </div>
+ 
+      
+      <div id="cadastro">
+
+        <form method="get" action="http://localhost/direitoafelicidade/cadastro-aplicativo.php"> 
+          <h1>Cadastro de aplicativo</h1> 
+           
+
+          <p> 
+            <label for="logoAplicativo">Logo do aplicativo</label>
+            <input id="logoAplicativo" name="logoAplicativo" required="required" type="file" placeholder="logo" />
+          </p>
+
+           
+          <p> 
+            <label for="linkAplicativo">Link do aplicativo</label>
+            <input id="linkAplicativo" name="linkAplicativo" required="required" type="text" placeholder="link" /> 
+          </p>
+
+           <p> 
+            <label for="desenvolvedoresAplicativo">Desenvolvedores do aplicativo</label>
+            <input id="desenvolvedoresAplicativo" name="desenvolvedoresAplicativo" required="required" type="text" placeholder="desenvolvedores" /> 
+          </p>
+          
+           <p>
+             <label id="gratisAplicativo" for="gratisAplicativo">O aplicativo é grátis?</label>
+             <input id="gratisAplicativo" type="checkbox" name="gratisAplicativo" value="1">Sim
+             <input id="gratisAplicativo" type="checkbox" name="gratisAplicativo" value="2">Não
+           </p>
+
+           <p> 
+            <label for="codConteudo">Código do conteúdo</label>
+            <input id="codConteudo" name="codConteudo" required="required" type="text" placeholder="codConteudo" />
+             <h6>Por enquanto, o código do conteúdo dever consultato no banco de dados</h6> 
+          </p>
+
+          <p> 
+            <input type="submit" value="Cadastrar"/> 
+
+          </p>
+          
+         
+        </form>
+      </div>
+    </div>
+  </div>  
+</body>
+</html>
