@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".YoutubeDetalhadoActivity"
+    tools:showIn="@layout/activity_youtube_detalhado">
+
+    <TextView
+        android:id="@+id/tvNomeCanal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100px"
+        android:layout_marginTop="50px"
+        android:text="Nome do Canal"
+        android:textColor="#0E0101"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/tvDescricaoCanal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10px"
+        android:layout_marginTop="15px"
+        android:text="Descrição"
+        android:textColor="#0E0101"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/tvIndicacaoCanal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10px"
+        android:layout_marginTop="15px"
+        android:text="Indicação"
+        android:textColor="#0E0101"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/tvTematicaCanal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10px"
+        android:layout_marginTop="15px"
+        android:text="Tematica do Canal"
+        android:textColor="#0E0101"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/tvLinkCanal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10px"
+        android:layout_marginTop="15px"
+        android:text="Link do Canal"
+        android:textColor="#0E0101"
+        android:textSize="28sp" />
+
+    <ImageView
+        android:id="@+id/ivCapaCanal"
+        android:layout_width="170pt"
+        android:layout_height="50pt"
+        android:background="@color/corBotao"
+        />
+
+</LinearLayout>

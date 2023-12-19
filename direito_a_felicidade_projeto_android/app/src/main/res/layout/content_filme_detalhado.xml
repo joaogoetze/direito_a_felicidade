@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvTituloFilme"
+        android:text="Título: "
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvAnoFilme"
+        android:text="Ano: "
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvDuracaoFilme"
+        android:text="Duração: "
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvSinopse"
+        android:text="Sinopse: "
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvTematica"
+        android:text="Temática: "
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvIndicacao"
+        android:text="Indicação: "
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvPlataformas"
+        android:text="Plataformas: "
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        ></TextView>
+
+</LinearLayout>

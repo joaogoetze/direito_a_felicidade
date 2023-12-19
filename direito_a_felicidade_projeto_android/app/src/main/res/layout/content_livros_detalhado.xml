@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFF0D5"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+     >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvNomeLivro"
+        android:text="Título: "
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvAutorLivro"
+        android:text="Autor: "
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvAnoLivro"
+        android:text="Ano de lançamento: "
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvGeneroLivro"
+        android:text="Gênero: "
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvPaginasLivro"
+        android:text="Páginas: "
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvDescricao"
+        android:text="Descrição: "
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvTematica"
+        android:text="Temática: "
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        ></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvIndicacao"
+        android:text="Indicação: "
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        ></TextView>
+    <Button
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:id="@+id/bAcessar"
+        android:text="Acessar"
+        android:textSize="20dp">
+    </Button>
+
+
+</LinearLayout>
