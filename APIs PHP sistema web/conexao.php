@@ -7,7 +7,7 @@ $dbname = "projeto";
 $port = 3306;
 try{
     //Conexão com a porta
-    $conn = new PDO("mysql:host=$host;port=$port;dbname=" . $dbname, $user, $pass);
+    $conn = new PDO("mysql:dbname=banco;host=localhost", "root", "root");
 
     //Conexão sem a porta
     //$conn = new PDO("mysql:host=$host;dbname=" . $dbname, $user, $pass);
